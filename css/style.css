@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,9 +7,22 @@
     user-select: none;
 }
 
-header {}
+header {
+    display: flex;
+    padding: 25px;
+}
 
-body{
+.title {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    vertical-align: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
