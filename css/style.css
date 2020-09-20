@@ -72,5 +72,5 @@ td:first-child {
 }
 
 tr:first-child td {
-    color: rgba(30, 30, 30, 1);
+    color: rgba(30, 30, 30, 0.904);
 }
